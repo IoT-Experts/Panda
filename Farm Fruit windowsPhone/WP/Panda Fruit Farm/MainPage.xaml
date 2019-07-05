@@ -1,0 +1,41 @@
+﻿<Page
+    x:Class="Panda_Fruit_Farm.MainPage"
+    IsTabStop="false"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Panda_Fruit_Farm"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:pubcenter="using:Microsoft.Advertising.WinRT.UI"
+  
+xmlns:adduplex="using:AdDuplex.Universal.Controls.WinPhone.XAML"
+
+
+    mc:Ignorable="d">
+    <Grid Name="Layoutroot">
+        <SwapChainPanel x:Name="DXSwapChainPanel">
+        <Grid x:Name="ExtendedSplashGrid" >
+            <Image x:Name="ExtendedSplashImage" Source="Assets/SplashScreen.png" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        </Grid>
+        <!--<WebView x:Name="RequestView" Visibility="Collapsed" Width="400" Height="800" NavigationCompleted="RequestView_NavigationCompleted"/>
+        <TextBlock Text="Invited friends" Style="{StaticResource HeaderTextBlockStyle}" x:Name="FriendsHeader" Visibility="Collapsed"/>
+        <ListView x:Name="Friends" Margin="0, 20, 0, 0" Visibility="Collapsed">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel>
+                        <TextBlock Text="{Binding Path=FullName}" Style="{StaticResource BodyTextBlockStyle}" />
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>-->
+            <Grid Height="50" Name="gridpubcenter" VerticalAlignment="Bottom">
+                <pubcenter:AdControl Height="50" Width="320" ErrorOccurred="AdControl_ErrorOccurred" ApplicationId="5b17e07e-fd7a-46a8-9f37-35188cbe64e9" AdUnitId="11615669" IsAutoRefreshEnabled="True" VerticalAlignment="Bottom"></pubcenter:AdControl>
+                <Grid VerticalAlignment="Bottom" Name="adduplexcontrolads" Visibility="Collapsed">
+                    <adduplex:AdControl AdUnitId="192183" AppKey="c5d91d64-66c3-4109-8402-75a04b852b83" />
+                </Grid>
+            </Grid >
+            
+        </SwapChainPanel>
+        
+    </Grid>
+</Page>

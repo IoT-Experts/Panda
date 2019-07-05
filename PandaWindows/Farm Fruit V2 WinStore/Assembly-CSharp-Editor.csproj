@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{F87956E4-C4ED-11FB-EC94-2AA0CE57E8B6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_1;UNITY_5_3;UNITY_5;UNITY_PURCHASING;UNITY_ANALYTICS;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_METRO;UNITY_METRO_API;UNITY_WINRT;ENABLE_WINRT_PINVOKE;ENABLE_TEXTUREID_MAP;ENABLE_LAZY_METHOD_CACHING;ENABLE_MOVIES;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_EVENT_QUEUE;ENABLE_NETWORK;UNITY_PLATFORM_THREAD_TO_CORE_MAPPING;PLATFORM_SUPPORTS_ADS_ID;UNITY_WSA;ENABLE_DOTNET;ENABLE_PROFILER;UNITY_METRO_8_1;UNITY_WSA_8_1;UNITY_WINRT_8_1;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE;JMFP;ENABLE_DUCK_TYPING</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport/Tools/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\CodeStage\AntiCheatToolkit\Editor\Scripts\ActEditorGlobalStuff.cs" />
+     <Compile Include="Assets\CodeStage\AntiCheatToolkit\Editor\Scripts\ActPostprocessor.cs" />
+     <Compile Include="Assets\CodeStage\AntiCheatToolkit\Editor\Scripts\Common\AllowedAssembly.cs" />
+     <Compile Include="Assets\CodeStage\AntiCheatToolkit\Editor\Scripts\Editors\InjectionDetectorEditor.cs" />
+     <Compile Include="Assets\CodeStage\AntiCheatToolkit\Editor\Scripts\Editors\ObscuredCheatingDetectorEditor.cs" />
+     <Compile Include="Assets\CodeStage\AntiCheatToolkit\Editor\Scripts\Editors\SpeedHackDetectorEditor.cs" />
+     <Compile Include="Assets\CodeStage\AntiCheatToolkit\Editor\Scripts\PropertyDrawers\ObscuredBoolDrawer.cs" />
+     <Compile Include="Assets\CodeStage\AntiCheatToolkit\Editor\Scripts\PropertyDrawers\ObscuredFloatDrawer.cs" />
+     <Compile Include="Assets\CodeStage\AntiCheatToolkit\Editor\Scripts\PropertyDrawers\ObscuredIntDrawer.cs" />
+     <Compile Include="Assets\CodeStage\AntiCheatToolkit\Editor\Scripts\PropertyDrawers\ObscuredPropertyDrawer.cs" />
+     <Compile Include="Assets\CodeStage\AntiCheatToolkit\Editor\Scripts\PropertyDrawers\ObscuredStringDrawer.cs" />
+     <Compile Include="Assets\CodeStage\AntiCheatToolkit\Editor\Scripts\Windows\ActAssembliesWhitelist.cs" />
+     <Compile Include="Assets\CodeStage\AntiCheatToolkit\Editor\Scripts\Windows\ActOptions.cs" />
+     <Compile Include="Assets\Editor\FontEditorCs.cs" />
+     <Compile Include="Assets\JMF PRO\Scripts\area 51\Editor\BoardLayoutChooserWindow.cs" />
+     <Compile Include="Assets\JMF PRO\Scripts\area 51\Editor\BoardLayoutEditor.cs" />
+     <Compile Include="Assets\JMF PRO\Scripts\area 51\Editor\BoardLayoutWeightsWindow.cs" />
+     <Compile Include="Assets\JMF PRO\Scripts\area 51\Editor\BoardLayoutWindow.cs" />
+     <Compile Include="Assets\JMF PRO\Scripts\area 51\Editor\GlobalDefines.cs" />
+     <Compile Include="Assets\JMF PRO\Scripts\area 51\Editor\VisualizedGridEditor.cs" />
+     <None Include="Assets\Textured Text Shader.shader" />
+     <None Include="Assets\Resources\Prefabs\Effect\~NOTE.txt" />
+     <None Include="Assets\CodeStage\AntiCheatToolkit\changelog.txt" />
+     <None Include="Assets\README.txt" />
+     <None Include="Assets\JMF PRO\Scripts\customisables\Pieces Types\~ NOTE.txt" />
+     <None Include="Assets\JMF PRO\~README.txt" />
+     <None Include="Assets\JsonDotNet\ReadMe.txt" />
+     <None Include="Assets\JMF PRO\Scripts\customisables\Panel Types\~ NOTE.txt" />
+     <None Include="Assets\CodeStage\AntiCheatToolkit\Integration\readme.txt" />
+     <None Include="Assets\CodeStage\AntiCheatToolkit\API.txt" />
+ <Reference Include="Assembly-UnityScript">
+ <HintPath>C:/Users/Mr.Thang/OneDrive/Unity Project/JetSoft/Farm Fruit V2 WinStore/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Advertisements">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/EditorTestsRunner/Editor/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.EditorTestsRunner">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/EditorTestsRunner/Editor/UnityEditor.EditorTestsRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.TreeEditor">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Purchasing">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll</HintPath>
+ </Reference>
+ <Reference Include="Common">
+ <HintPath>C:/Users/Mr.Thang/OneDrive/Unity Project/JetSoft/Farm Fruit V2 WinStore/Assets/Plugins/UnityPurchasing/Bin/Common.dll</HintPath>
+ </Reference>
+ <Reference Include="Editor">
+ <HintPath>C:/Users/Mr.Thang/OneDrive/Unity Project/JetSoft/Farm Fruit V2 WinStore/Assets/Plugins/UnityPurchasing/Bin/Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Security">
+ <HintPath>C:/Users/Mr.Thang/OneDrive/Unity Project/JetSoft/Farm Fruit V2 WinStore/Assets/Plugins/UnityPurchasing/Bin/Security.dll</HintPath>
+ </Reference>
+ <Reference Include="Stores">
+ <HintPath>C:/Users/Mr.Thang/OneDrive/Unity Project/JetSoft/Farm Fruit V2 WinStore/Assets/Plugins/UnityPurchasing/Bin/Stores.dll</HintPath>
+ </Reference>
+ <Reference Include="Apple">
+ <HintPath>C:/Users/Mr.Thang/OneDrive/Unity Project/JetSoft/Farm Fruit V2 WinStore/Assets/Plugins/UnityPurchasing/Bin/Apple/Apple.dll</HintPath>
+ </Reference>
+ <Reference Include="winrt">
+ <HintPath>C:/Users/Mr.Thang/OneDrive/Unity Project/JetSoft/Farm Fruit V2 WinStore/Assets/Plugins/UnityPurchasing/winrt/winrt.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Android.Extensions">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Metro.Extensions">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.Metro.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{EC6E82B1-0EF3-7CA7-D364-BBFDAEC4B5B6}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-CSharp.csproj">
+      <Project>{3C1E0861-C39D-0982-33F4-46F56647F90C}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

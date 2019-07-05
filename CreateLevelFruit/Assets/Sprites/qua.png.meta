@@ -1,0 +1,194 @@
+fileFormatVersion: 2
+guid: bd96432b29f05f645a20ed0abfcccc04
+timeCreated: 1449464060
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: qua_0
+    21300002: qua_1
+    21300004: qua_2
+    21300006: qua_3
+    21300008: qua_4
+    21300010: qua_5
+    21300012: qua_6
+    21300014: qua_7
+    21300016: qua_8
+    21300018: qua_9
+    21300020: qua_10
+    21300022: qua_11
+    21300024: qua_12
+    21300026: qua_13
+    21300028: qua_14
+    21300030: qua_15
+    21300032: qua_16
+    21300034: qua_17
+    21300036: qua_18
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: qua_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 941
+        width: 106
+        height: 105
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: qua_2
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 941
+        width: 115
+        height: 105
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: qua_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 763
+        width: 104
+        height: 108
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: qua_5
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 762
+        width: 105
+        height: 112
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: qua_8
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 587
+        width: 104
+        height: 110
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: qua_9
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 591
+        width: 111
+        height: 108
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: qua_11
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 403
+        width: 109
+        height: 111
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: qua_12
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 405
+        width: 105
+        height: 111
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: qua_14
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 236
+        width: 107
+        height: 102
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: qua_15
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 236
+        width: 113
+        height: 109
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: qua_17
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 48
+        width: 108
+        height: 107
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: qua_18
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 49
+        width: 112
+        height: 106
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

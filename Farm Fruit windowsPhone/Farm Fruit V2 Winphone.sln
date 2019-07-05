@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Farm Fruit V2 Winphone.CSharp.Plugins", "Farm Fruit V2 Winphone.CSharp.Plugins.csproj", "{B616E9CB-0A1C-8D67-8FFE-B98AB1CCA9F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Farm Fruit V2 Winphone.CSharp", "Farm Fruit V2 Winphone.CSharp.csproj", "{86E38205-9ACE-F86B-C831-83497A08B054}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Farm Fruit V2 Winphone.CSharp.Editor", "Farm Fruit V2 Winphone.CSharp.Editor.csproj", "{EB842486-C3A0-3915-B91A-B73EB2C3C2CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B616E9CB-0A1C-8D67-8FFE-B98AB1CCA9F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B616E9CB-0A1C-8D67-8FFE-B98AB1CCA9F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B616E9CB-0A1C-8D67-8FFE-B98AB1CCA9F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B616E9CB-0A1C-8D67-8FFE-B98AB1CCA9F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86E38205-9ACE-F86B-C831-83497A08B054}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86E38205-9ACE-F86B-C831-83497A08B054}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86E38205-9ACE-F86B-C831-83497A08B054}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86E38205-9ACE-F86B-C831-83497A08B054}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB842486-C3A0-3915-B91A-B73EB2C3C2CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB842486-C3A0-3915-B91A-B73EB2C3C2CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB842486-C3A0-3915-B91A-B73EB2C3C2CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB842486-C3A0-3915-B91A-B73EB2C3C2CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
